@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Function to check if pm2 is installed。
+# Function to check if pm2 is installed
 check_pm2_installed() {
     if command -v pm2 &>/dev/null; then
         return 0  # pm2已安装
